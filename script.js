@@ -12,5 +12,5 @@ var color = "red";
 ctx.beginPath();
 ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
 //ctx.fillStyle = color;
-ctx.fill();
+//ctx.fill();
 ctx.closePath();
