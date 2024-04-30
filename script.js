@@ -11,6 +11,4 @@ var color = "red";
 // Dessin du cercle
 ctx.beginPath();
 ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-//ctx.fillStyle = color;
-//ctx.fill();
 ctx.closePath();
